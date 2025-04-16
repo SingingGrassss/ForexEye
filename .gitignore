@@ -20,3 +20,5 @@ Thumbs.db
 # 忽略敏感信息文件
 .env
 secrets.json
+
+tmp/
