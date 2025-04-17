@@ -1,7 +1,18 @@
 # 暂未使用
+import sys
+
+
 class Reminder:
+    def __init__(self, quote_currency):
+        self.quote_currency = quote_currency
+        self.min = sys.float_info.min
+        self.max = sys.float_info.max
 
-    def __init__(self):
+    def set_max(self, max):
+        self.max = max
 
-    def SendMessages(self, number, text):
+    def set_min(self, min):
+        self.min = min
+
+    def send_messages(self, number, text):
         return
