@@ -1,4 +1,5 @@
-# 暂未使用
+# https://cloud.tencent.com/document/product/382/37745
+# https://console.cloud.tencent.com/smsv2
 import sys
 
 
